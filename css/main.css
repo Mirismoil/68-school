@@ -343,10 +343,6 @@ img {
   border-radius: 55%;
 }
 
-.hero-section {
-  background-color: rgba(51, 51, 51, 0.087);
-}
-
 .navbar-text {
   font-size: 24px;
 }
@@ -393,4 +389,36 @@ img {
 
 .holiday {
   margin-top: 50px;
+}
+
+.iframe {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1001px) {
+  .wrapper-card {
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 565px) {
+  .hero-img {
+    width: 100%;
+  }
+  .hero__text {
+    width: 100%;
+  }
+}
+.iframe {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
